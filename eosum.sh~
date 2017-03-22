@@ -1,0 +1,16 @@
+echo “Enter lowest value:”
+read n
+echo "enter highest value:"
+read m
+osum=0
+es=0
+
+if [ `expr $no % 2` = 0 ] then
+es=`expr $es + $no`
+else
+osum=`expr $osum + $no`
+fi
+done
+echo “The sum of odd numbers is : $osum” echo “The sum of even numbers is : $es”
+
+
